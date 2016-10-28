@@ -1,0 +1,27 @@
+.pane.right {
+  background: #333;
+}
+
+section.filters .right header h1, 
+section.user_filters .right header h1, 
+section.incidents .right header h1 {
+  color: #eee;
+}
+
+.filter_tickets thead tr,
+.ember-view.filter-grid-list table {
+  background: #666;
+}
+
+.filter_tickets tbody tr.grouping td:not(.leading) {
+  color: #ccc;
+}
+
+.filter_tickets th,
+.filter_tickets td {
+  color: #eee;
+}
+
+.filter_tickets td a {
+  color: #fff;
+}
